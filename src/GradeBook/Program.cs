@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            var book = new InMemoryBook("August Grade Book");
+            var book = new DiskBook("August Grade Book");
             book.GradeAdded += OnGradeAdded;
             EnterGrade(book);
 
@@ -15,7 +15,7 @@
             Console.WriteLine($"The average grade is {stats.Average:N1}");
             Console.WriteLine($"The highest grade is {stats.High:N1}");
             Console.WriteLine($"The lowest grade is {stats.Low:N1}");
-            Console.WriteLine($"The letter grade is {stats.letter:N1}");
+            Console.WriteLine($"The letter grade is {stats.Letter:N1}");
         }
 
         private static void EnterGrade(IBook book)
