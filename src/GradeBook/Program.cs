@@ -4,13 +4,13 @@
     {
         private static void Main(string[] args)
         {
-            var book = new Book("August Grade Book");
+            var book = new InMemoryBook("August Grade Book");
             book.GradeAdded += OnGradeAdded;
             EnterGrade(book);
 
             var stats = book.GetStatistics();
 
-            System.Console.WriteLine(Book.CATEGORY);
+            System.Console.WriteLine(InMemoryBook.CATEGORY);
             System.Console.WriteLine($"For the book named {book.Name}");
             Console.WriteLine($"The average grade is {stats.Average:N1}");
             Console.WriteLine($"The highest grade is {stats.High:N1}");
@@ -18,7 +18,7 @@
             Console.WriteLine($"The letter grade is {stats.letter:N1}");
         }
 
-        private static void EnterGrade(Book book)
+        private static void EnterGrade(IBook book)
         {
             while (true)
             {
