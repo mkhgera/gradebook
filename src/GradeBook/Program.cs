@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            var book = new DiskBook("August Grade Book");
+            var book = new DataBaseBook("August Grade Book");
             book.GradeAdded += OnGradeAdded;
             EnterGrade(book);
 

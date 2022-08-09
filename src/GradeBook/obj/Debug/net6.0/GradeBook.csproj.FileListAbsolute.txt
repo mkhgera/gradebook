@@ -13,3 +13,5 @@ C:\Users\Aigerim\gradebook\src\GradeBook\obj\Debug\net6.0\refint\GradeBook.dll
 C:\Users\Aigerim\gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.pdb
 C:\Users\Aigerim\gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
 C:\Users\Aigerim\gradebook\src\GradeBook\obj\Debug\net6.0\ref\GradeBook.dll
+C:\Users\Aigerim\gradebook\src\GradeBook\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Aigerim\gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.csproj.CopyComplete

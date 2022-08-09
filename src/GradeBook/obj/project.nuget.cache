@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EMBCGPYv6mKDAlgcpL25iRNpSWHMpdFNA1SijLk3UdnYctmc/yLkdp9DIua4Wr1ggPLTroOQKmBXfQV4v4wUVg==",
+  "dgSpecHash": "YIqaCiNFg6cf/zvhAPwpsCiM7NPAPf0XzxB8J7OC+ERSgh7kgK2SBr5Erls1XGB5f31wM4noUsHhZx22Ottn0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aigerim\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Aigerim\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
+    "C:\\Users\\Aigerim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
